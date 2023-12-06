@@ -1,0 +1,17 @@
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.csprojAssemblyReference.cache
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.csproj.ResolveComReference.cache
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.DanhSachSanPham.resources
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.Hang.resources
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.HoaDonBan.resources
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.KhachHang.resources
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.Main.resources
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.NhanVien.resources
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.Properties.Resources.resources
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.TimHDBan.resources
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.csproj.GenerateResource.cache
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\bin\Debug\DoAn.exe.config
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\bin\Debug\DoAn.exe
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\bin\Debug\DoAn.pdb
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.exe
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.pdb
