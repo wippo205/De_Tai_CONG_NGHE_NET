@@ -50,6 +50,7 @@
             this.mnuTroGiup = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuHienTroGiup = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuVaiNet = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnLogOut = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -229,12 +230,23 @@
             this.mnuVaiNet.Size = new System.Drawing.Size(139, 26);
             this.mnuVaiNet.Text = "Vài nét";
             // 
+            // btnLogOut
+            // 
+            this.btnLogOut.Location = new System.Drawing.Point(614, 391);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Size = new System.Drawing.Size(186, 31);
+            this.btnLogOut.TabIndex = 76;
+            this.btnLogOut.Text = "Log out";
+            this.btnLogOut.UseVisualStyleBackColor = true;
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DoAn.Properties.Resources.images;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLogOut);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.statusStrip1);
             this.Name = "Main";
@@ -272,6 +284,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnuTroGiup;
         private System.Windows.Forms.ToolStripMenuItem mnuHienTroGiup;
         private System.Windows.Forms.ToolStripMenuItem mnuVaiNet;
+        private System.Windows.Forms.Button btnLogOut;
     }
 }
 

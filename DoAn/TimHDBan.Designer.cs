@@ -277,6 +277,6 @@
         private System.Windows.Forms.Button btnDong;
         private System.Windows.Forms.Button btnTimLai;
         private System.Windows.Forms.Button btnTimKiem;
-        internal System.Windows.Forms.TextBox txtMaHDBan;
+        public System.Windows.Forms.TextBox txtMaHDBan;
     }
 }

@@ -76,4 +76,14 @@ CREATE TABLE ChiTietHDBan
     FOREIGN KEY (MaHang) REFERENCES Hang(MaHang)
 );
 
+CREATE TABLE DangNhap
+(
+    ID int PRIMARY KEY,
+    UserName nvarchar(50) NOT NULL,
+    Password nvarchar(50) NOT NULL
+);
+
+
+
+
 

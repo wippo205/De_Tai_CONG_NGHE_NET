@@ -15,3 +15,5 @@ C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\bin\Debug\DoAn.exe
 C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\bin\Debug\DoAn.pdb
 C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.exe
 C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.pdb
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.Login.resources
+C:\Users\h1h1m\OneDrive\Máy tính\DoAn\DoAn\obj\Debug\DoAn.Register.resources

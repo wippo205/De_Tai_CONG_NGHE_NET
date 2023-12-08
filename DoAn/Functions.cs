@@ -20,12 +20,7 @@ namespace DoAn.Class
 
             try
             {
-                Con.Open();                  //Mở kết nối
-                                             //Kiểm tra kết nối
-                if (Con.State == ConnectionState.Open)
-                    MessageBox.Show("Kết nối thành công");
-                else
-                    MessageBox.Show("Không thể kết nối với dữ liệu");
+                Con.Open();
             }
             catch (Exception ex)
             {

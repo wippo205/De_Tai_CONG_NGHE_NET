@@ -70,6 +70,13 @@ namespace DoAn
             DoAn.Class.Functions.Disconnect();
             Application.Exit();
         }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+        }
     }
 }
 

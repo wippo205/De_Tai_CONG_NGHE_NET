@@ -14,7 +14,7 @@ namespace DoAn
 {
     public partial class TimHDBan : Form
     {
-        DataTable tblHDB;
+        DataTable HDB;
         public TimHDBan()
         {
             InitializeComponent();
@@ -44,7 +44,7 @@ namespace DoAn
                 MessageBox.Show("Hãy nhập một điều kiện tìm kiếm!!!", "Yêu cầu ...", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            sql = "SELECT * FROM tblHDBan WHERE 1=1";
+            sql = "SELECT * FROM HDBan WHERE 1=1";
             if (txtMaHDBan.Text != "")
                 sql = sql + " AND MaHDBan Like N'%" + txtMaHDBan.Text + "%'";
             if (txtThang.Text != "")
@@ -57,14 +57,14 @@ namespace DoAn
                 sql = sql + " AND MaKhach Like N'%" + txtMaKhach.Text + "%'";
             if (txtTongTien.Text != "")
                 sql = sql + " AND TongTien <=" + txtTongTien.Text;
-            tblHDB = Functions.GetDataToTable(sql);
-            if (tblHDB.Rows.Count == 0)
+            HDB = Functions.GetDataToTable(sql);
+            if (HDB.Rows.Count == 0)
             {
                 MessageBox.Show("Không có bản ghi thỏa mãn điều kiện!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
-                MessageBox.Show("Có " + tblHDB.Rows.Count + " bản ghi thỏa mãn điều kiện!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            dgvTKHoaDon.DataSource = tblHDB;
+                MessageBox.Show("Có " + HDB.Rows.Count + " bản ghi thỏa mãn điều kiện!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            dgvTKHoaDon.DataSource = HDB;
             LoadDataGridView();
         }
 
@@ -105,15 +105,15 @@ namespace DoAn
 
         private void dgvTKHoaDon_DoubleClick(object sender, EventArgs e)
         {
-            //string mahd;
-            //if (MessageBox.Show("Bạn có muốn hiển thị thông tin chi tiết?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            //{
-            //    mahd = dgvTKHoaDon.CurrentRow.Cells["MaHDBan"].Value.ToString();
-            //    HoaDonBan hoaDonBan = new HoaDonBan();
-            //    hoaDonBan.txtMaHDBan.Text = mahd;
-            //    hoaDonBan.StartPosition = FormStartPosition.CenterParent;
-            //    hoaDonBan.ShowDialog();
-            //}
+            string mahd;
+            if (MessageBox.Show("Bạn có muốn hiển thị thông tin chi tiết?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                //mahd = dgvTKHoaDon.CurrentRow.Cells["MaHDBan"].Value.ToString();
+                //HoaDonBan hoaDonBan = new HoaDonBan();
+                //hoaDonBan.txtMaHDBan.Text = mahd;
+                //hoaDonBan.StartPosition = FormStartPosition.CenterParent;
+                //hoaDonBan.ShowDialog();
+            }
         }
 
         private void btnDong_Click(object sender, EventArgs e)
